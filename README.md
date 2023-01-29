@@ -12,3 +12,7 @@ This is a script meant to be installed in [Tampermonkey](https://www.tampermonke
 
 ![image](https://user-images.githubusercontent.com/44344493/215305102-a82b8f66-5d08-4eeb-9ec9-f7b37641d5d2.png)
 ![image](https://user-images.githubusercontent.com/44344493/215305109-e0180808-d9ed-4e6e-9d19-132a2065ccd6.png)
+
+
+## Download
+Install [here](https://github.com/ChrisDaDerp/Pokemon-Showdown-Air-Balloon-Injector/raw/main/code.user.js).
