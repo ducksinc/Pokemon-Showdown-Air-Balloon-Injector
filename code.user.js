@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Air Balloon Injector
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Shows Air Balloon PNG when "Balloon" is detected in a Pokémon Showdown battle.
 // @author       ChrisDaDerp
 // @match        *://play.pokemonshowdown.com/battle-*
@@ -19,10 +19,12 @@ const airBalloon2 = document.createElement('img');
 airBalloon1.src = airBalloonImg.src;
 // set the width of the img element
 airBalloon1.width = 50;
+let balloon1 = false;
 // set the src of the img rightElements to the Air Balloon image
 airBalloon2.src = airBalloonImg.src;
 // set the width of the img rightElements
 airBalloon2.width = 50;
+let balloon2 = false;
 
 // Checks left for Balloon status
 function checkLeft() {
@@ -33,10 +35,12 @@ function checkLeft() {
         // Check if the current leftElement's innerText contains the string "Balloon"
         if (leftElements[i].innerText.includes('Balloon')) {
             leftElements[i].appendChild(airBalloon1);
+            balloon1 = true;
         }
         // Remove balloon if no longer active
-        else if (!leftElements[i].innerText.includes('Balloon')) {
+        else if (!leftElements[i].innerText.includes('Balloon') && balloon1) {
             leftElements[i].removeChild(airBalloon1);
+            balloon1 = false;
         }
     }
 }
@@ -50,10 +54,12 @@ function checkRight() {
         // Check if the current rightElements's innerText contains the string "Balloon"
         if (rightElements[i].innerText.includes('Balloon')) {
             rightElements[i].appendChild(airBalloon2);
+            balloon2 = true;
         }
         // Remove balloon if no longer active
-        else if (!rightElements[i].innerText.includes('Balloon')) {
+        else if (!rightElements[i].innerText.includes('Balloon') && balloon2) {
             rightElements[i].removeChild(airBalloon2);
+            balloon2 = false;
         }
     }
 }
