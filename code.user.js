@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Air Balloon Injector
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Shows Air Balloon PNG when "Balloon" is detected in a Pokémon Showdown battle.
 // @author       ChrisDaDerp
 // @match        *://play.pokemonshowdown.com/battle-*
