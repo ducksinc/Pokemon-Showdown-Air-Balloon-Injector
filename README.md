@@ -1,7 +1,7 @@
 # Pokemon-Showdown-Air-Balloon-Injector
 ### Injects image of Air Balloon next to Pokémon for added visibility.
 
-This is a script meant to be installed in [Tampermonkey](https://www.tampermonkey.net/). It will only run in a tab that is currently in a battle  (by checking for the *pokemonshowdown.com/battle* link).
+This is a script meant to be installed in [Tampermonkey](https://www.tampermonkey.net/). It will only run in a tab that is currently in a battle  (by checking for the \*pokemonshowdown.com/battle\* link).
 
 
 #### Checks both sides of the field for Air Balloons.
