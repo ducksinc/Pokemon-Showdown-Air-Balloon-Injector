@@ -6,6 +6,8 @@
 // @author       ChrisDaDerp
 // @match        *://play.pokemonshowdown.com/battle-*
 // @icon         https://github.com/PokeAPI/sprites/blob/master/sprites/items/air-balloon.png?raw=true
+// @downloadURL  https://github.com/ChrisDaDerp/Pokemon-Showdown-Air-Balloon-Injector/blob/1ba4e644bd822926579fbd945c9578fd728f32e2/code.user.js
+// @updateURL    https://github.com/ChrisDaDerp/Pokemon-Showdown-Air-Balloon-Injector/blob/1ba4e644bd822926579fbd945c9578fd728f32e2/code.user.js
 // @grant        none
 // ==/UserScript==
 
