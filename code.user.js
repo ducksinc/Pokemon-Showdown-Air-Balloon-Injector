@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Air Balloon Injector
 // @namespace    http://tampermonkey.net/
-// @version      0.4
+// @version      0.5
 // @description  Shows Air Balloon PNG when "Balloon" is detected in a Pokémon Showdown battle.
 // @author       ChrisDaDerp
 // @match        *://play.pokemonshowdown.com/battle-*
+// @match        *://replay.pokemonshowdown.com/*
 // @icon         https://github.com/PokeAPI/sprites/blob/master/sprites/items/air-balloon.png?raw=true
 // @downloadURL  https://github.com/ChrisDaDerp/Pokemon-Showdown-Air-Balloon-Injector/blob/1ba4e644bd822926579fbd945c9578fd728f32e2/code.user.js
 // @updateURL    https://github.com/ChrisDaDerp/Pokemon-Showdown-Air-Balloon-Injector/blob/1ba4e644bd822926579fbd945c9578fd728f32e2/code.user.js
