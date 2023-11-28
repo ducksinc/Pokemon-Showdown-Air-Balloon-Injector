@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.5
 // @description  Shows Air Balloon PNG when "Balloon" is detected in a Pokémon Showdown battle.
-// @author       ChrisDaDerp
+// @author       ducksinc
 // @match        *://play.pokemonshowdown.com/battle-*
 // @match        *://replay.pokemonshowdown.com/*
 // @icon         https://github.com/PokeAPI/sprites/blob/master/sprites/items/air-balloon.png?raw=true
